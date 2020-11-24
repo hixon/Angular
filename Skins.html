@@ -18,20 +18,6 @@
 
 {{selectedSide.Name}}
 
-<!--
-    this is not needed. once the get skins button is pressed we can automatically 
-    get the lowest hcp(s) and weight from there
-<p>Select Low Hcp:</p>
-
-<select ng-model="selectedPlayer" ng-options="y.Name for y in Golfers | orderBy: 'Name'"></select>
--->
-
-<!--
-<h1>You selected: {{selectedPlayer.Name}}</h1>
-<h2>Hcp Front: {{selectedPlayer.HcpF}}</h2>
-<h3>Hcp Back: {{selectedPlayer.HcpB}}</h3>
--->
-
 <table id="AllInfo" class="table table-striped table-bordered table-hover">
     <tr>
         <th>Name</th>
@@ -73,28 +59,8 @@
         <td><input class="scoreInput" type="number" ng-model="x.S7"></td>
         <td><input class="scoreInput" type="number" ng-model="x.S8"></td>
         <td><input class="scoreInput" type="number" ng-model="x.S9"></td>
-    </tr>
-
-    <!--
-    <tr>
-        <td><select ng-model="selectedGolfer" ng-options="y.Name for y in Golfers | orderBy: 'Name'"></select></td>
-        <td>{{selectedSide.Name == "Front" ? selectedGolfer.HcpF : selectedGolfer.HcpB}}</td>
-        <td><input class="scoreInput" type="number" ng-model="selectedSide.S1" max="10" min="1"></td>
-        <td><input class="scoreInput" type="number" ng-model="selectedSide.S2"></td>
-        <td><input class="scoreInput" type="number" ng-model="selectedSide.S3"></td>
-        <td><input class="scoreInput" type="number" ng-model="selectedSide.S4"></td>
-        <td><input class="scoreInput" type="number" ng-model="selectedSide.S5"></td>
-        <td><input class="scoreInput" type="number" ng-model="selectedSide.S6"></td>
-        <td><input class="scoreInput" type="number" ng-model="selectedSide.S7"></td>
-        <td><input class="scoreInput" type="number" ng-model="selectedSide.S8"></td>
-        <td><input class="scoreInput" type="number" ng-model="selectedSide.S9"></td>
-    </tr>
-    -->
+    </tr>    
 </table>
-
-<!--<button class="btn btn-success" ng-click="AddGolfer()">Add Golfer</button>-->
-
-<p>The visible text inside the dropdown list can also be a property of the value object.</p>
 
 <button class="btn btn-primary" ng-click="GetSkins()">Get Skins</button>
 
