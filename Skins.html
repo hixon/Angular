@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+        <link rel="stylesheet" href="Site.css">
+    </head>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl" class="container-fluid">
+
+<p>Select Side:</p>
+
+<select ng-change="selectedSide" ng-model="selectedSide" ng-options="y.Name for (x, y) in Sides"></select>
+
+{{selectedSide.Name}}
+
+<!--
+    this is not needed. once the get skins button is pressed we can automatically 
+    get the lowest hcp(s) and weight from there
+<p>Select Low Hcp:</p>
+
+<select ng-model="selectedPlayer" ng-options="y.Name for y in Golfers | orderBy: 'Name'"></select>
+-->
+
+<!--
+<h1>You selected: {{selectedPlayer.Name}}</h1>
+<h2>Hcp Front: {{selectedPlayer.HcpF}}</h2>
+<h3>Hcp Back: {{selectedPlayer.HcpB}}</h3>
+-->
+
+<table id="AllInfo" class="table table-striped table-bordered table-hover">
+    <tr>
+        <th>Name</th>
+        <th>Hole #</th>
+        <th>{{selectedSide.H1}}</th>
+        <th>{{selectedSide.H2}}</th>
+        <th>{{selectedSide.H3}}</th>
+        <th>{{selectedSide.H4}}</th>
+        <th>{{selectedSide.H5}}</th>
+        <th>{{selectedSide.H6}}</th>
+        <th>{{selectedSide.H7}}</th>
+        <th>{{selectedSide.H8}}</th>
+        <th>{{selectedSide.H9}}</th>
+    </tr>
+
+    <tr>
+        <th></th>
+        <th>Hcp</th>
+        <th>{{selectedSide.Hcp1}}</th>
+        <th>{{selectedSide.Hcp2}}</th>
+        <th>{{selectedSide.Hcp3}}</th>
+        <th>{{selectedSide.Hcp4}}</th>
+        <th>{{selectedSide.Hcp5}}</th>
+        <th>{{selectedSide.Hcp6}}</th>
+        <th>{{selectedSide.Hcp7}}</th>
+        <th>{{selectedSide.Hcp8}}</th>
+        <th>{{selectedSide.Hcp9}}</th>
+    </tr>
+    
+    <tr ng-repeat = "x in Golfers | orderBy: selectedSide.Name == 'Front' ? 'HcpF' : 'HcpB' ">
+        <td>{{x.Name}}</td>
+        <td>{{selectedSide.Name == "Front" ? x.HcpF : x.HcpB}}</td>
+        <td><input class="scoreInput" type="number" ng-model="x.S1" max="10" min="1"></td>
+        <td><input class="scoreInput" type="number" ng-model="x.S2"></td>
+        <td><input class="scoreInput" type="number" ng-model="x.S3"></td>
+        <td><input class="scoreInput" type="number" ng-model="x.S4"></td>
+        <td><input class="scoreInput" type="number" ng-model="x.S5"></td>
+        <td><input class="scoreInput" type="number" ng-model="x.S6"></td>
+        <td><input class="scoreInput" type="number" ng-model="x.S7"></td>
+        <td><input class="scoreInput" type="number" ng-model="x.S8"></td>
+        <td><input class="scoreInput" type="number" ng-model="x.S9"></td>
+    </tr>
+
+    <!--
+    <tr>
+        <td><select ng-model="selectedGolfer" ng-options="y.Name for y in Golfers | orderBy: 'Name'"></select></td>
+        <td>{{selectedSide.Name == "Front" ? selectedGolfer.HcpF : selectedGolfer.HcpB}}</td>
+        <td><input class="scoreInput" type="number" ng-model="selectedSide.S1" max="10" min="1"></td>
+        <td><input class="scoreInput" type="number" ng-model="selectedSide.S2"></td>
+        <td><input class="scoreInput" type="number" ng-model="selectedSide.S3"></td>
+        <td><input class="scoreInput" type="number" ng-model="selectedSide.S4"></td>
+        <td><input class="scoreInput" type="number" ng-model="selectedSide.S5"></td>
+        <td><input class="scoreInput" type="number" ng-model="selectedSide.S6"></td>
+        <td><input class="scoreInput" type="number" ng-model="selectedSide.S7"></td>
+        <td><input class="scoreInput" type="number" ng-model="selectedSide.S8"></td>
+        <td><input class="scoreInput" type="number" ng-model="selectedSide.S9"></td>
+    </tr>
+    -->
+</table>
+
+<!--<button class="btn btn-success" ng-click="AddGolfer()">Add Golfer</button>-->
+
+<p>The visible text inside the dropdown list can also be a property of the value object.</p>
+
+<button class="btn btn-primary" ng-click="GetSkins()">Get Skins</button>
+
+<div id="SkinsTable" ng-hide="ShowSkins">
+    <!-- Calculate if any scores get skins -->
+
+    <table class="table table-striped table-bordered table-hover">
+        <tr>
+            <th>Name</th>
+            <th>Hole</th>
+            <th>Gross Score</th>
+            <th>Net Score</th>
+        </tr>
+    </table>
+</div>
+
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+    $scope.ShowSkins = true;
+    $scope.Sides = {
+        Side1 : {Name : "Front",
+            H1 : "1", Hcp1 : "15",  H2 : "2", Hcp2 : "9",   H3 : "3", Hcp3 : "17",
+            H4 : "4", Hcp4 : "7",   H5 : "5", Hcp5 : "13",  H6 : "6", Hcp6 : "1",
+            H7 : "7", Hcp7 : "3",   H8 : "8", Hcp8 : "5",   H9 : "9", Hcp9 : "11"},
+        Side2 : {Name : "Back",
+            H1 : "10", Hcp1 : "10", H2 : "11", Hcp2 : "6",  H3 : "12", Hcp3 : "12",
+            H4 : "13", Hcp4 : "14", H5 : "14", Hcp5 : "18", H6 : "15", Hcp6 : "16",
+            H7 : "16", Hcp7 : "2",  H8 : "17", Hcp8 : "8",  H9 : "18", Hcp9 : "4"},
+    };
+
+    $scope.Golfers = [
+        {Name : "Tyler",    HcpF : 10,  HcpB : 8,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Tozzi",    HcpF : 11,  HcpB : 9,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Jim G",    HcpF : 16,  HcpB : 13,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Tony",     HcpF : 9,   HcpB : 8,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Hal",      HcpF : 7,   HcpB : 6,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Darrin",   HcpF : 14,  HcpB : 12,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Tom",      HcpF : 13,  HcpB : 10,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Jim S",    HcpF : 10,  HcpB : 8,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Donny",    HcpF : 11,  HcpB : 9,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Frency",   HcpF : 19,  HcpB : 16,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Dan",      HcpF : 14,  HcpB : 12,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Gordon",   HcpF : 17,  HcpB : 14,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Neil",     HcpF : 9,   HcpB : 7,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Jerry",    HcpF : 15,  HcpB : 13,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Trique",   HcpF : 9,   HcpB : 8,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Nick",     HcpF : 10,  HcpB : 8,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Hank",     HcpF : 10,  HcpB : 8,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Jamison",  HcpF : 12,  HcpB : 10,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Mark",     HcpF : 11,  HcpB : 9,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Ryan",     HcpF : 10,  HcpB : 9,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Sal",      HcpF : 9,   HcpB : 8,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Jeff",     HcpF : 13,  HcpB : 11,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Eddie V",  HcpF : 10,  HcpB : 9,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Zack",     HcpF : 9,   HcpB : 7,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0}
+    ];
+
+    $scope.Scorecard = [
+        {Hole: 1,   Hcp: 15,    Par: 4, Side: "Front"},
+        {Hole: 2,   Hcp: 9,     Par: 4, Side: "Front"},
+        {Hole: 3,   Hcp: 17,    Par: 4, Side: "Front"},
+        {Hole: 4,   Hcp: 7,     Par: 3, Side: "Front"},
+        {Hole: 5,   Hcp: 13,    Par: 5, Side: "Front"},
+        {Hole: 6,   Hcp: 1,     Par: 5, Side: "Front"},
+        {Hole: 7,   Hcp: 3,     Par: 4, Side: "Front"},
+        {Hole: 8,   Hcp: 5,     Par: 4, Side: "Front"},
+        {Hole: 9,   Hcp: 11,    Par: 4, Side: "Front"},
+        {Hole: 10,  Hcp: 10,    Par: 4, Side: "Back"},
+        {Hole: 11,  Hcp: 6,     Par: 3, Side: "Back"},
+        {Hole: 12,  Hcp: 12,    Par: 4, Side: "Back"},
+        {Hole: 13,  Hcp: 14,    Par: 4, Side: "Back"},
+        {Hole: 14,  Hcp: 18,    Par: 3, Side: "Back"},
+        {Hole: 15,  Hcp: 16,    Par: 3, Side: "Back"},
+        {Hole: 16,  Hcp: 2,     Par: 5, Side: "Back"},
+        {Hole: 17,  Hcp: 8,     Par: 4, Side: "Back"},
+        {Hole: 18,  Hcp: 4,     Par: 4, Side: "Back"}
+    ];
+
+    $scope.GetSkins = function(){
+        //alert($scope.Golfers[0].Name); //make sure something displays
+        //alert($scope.Golfers.length); //correct number of golfers in league
+
+        let size = $scope.Golfers.length;
+
+        let player = $scope.Golfers[0];
+
+        //alert(player.Name);
+        //let hcpDiff = $scope.Golfers.filter('Name', 'Tyler');
+
+        //alert($scope.Golfers[0].S1)
+        //alert($scope.Golfers[1].S1)
+        //alert($scope.Golfers.filter({Name: 'Tyler'}));
+        //alert(selectedPlayer.Name);        
+
+        GolfersThatPlayed = [];
+
+        for(let index = 0; index < size; index++){
+            if($scope.Golfers[index].S1 > 0){
+                GolfersThatPlayed.push($scope.Golfers[index]);
+            }
+        }    
+
+        /*for(let index = 0; index < GolfersThatPlayed.length; index++){
+            alert(GolfersThatPlayed[index].Name + ":" + GolfersThatPlayed[index].HcpF);                           
+        }*/        
+
+        //selection sort for now
+        for(let x = 0; x < GolfersThatPlayed.length; x++){
+            for(let y = x; y < GolfersThatPlayed.length; y++){
+                if(GolfersThatPlayed[y].HcpF < GolfersThatPlayed[x].HcpF){
+                    let temp = GolfersThatPlayed[x]; 
+                    GolfersThatPlayed[x] = GolfersThatPlayed[y];
+                    GolfersThatPlayed[y] = temp;
+                }
+            }            
+        }
+
+        //go through each score and see what holes you get strokes on
+        let lowHcp = GolfersThatPlayed[0];
+
+        for(let index = 1; index < GolfersThatPlayed.length; index++){
+            let currGolfer = GolfersThatPlayed[index];
+            if(currGolfer.HcpF > lowHcp.HcpF){
+                alert(currGolfer.HcpF + ":" + lowHcp.HcpF);
+                currGolfer.Strokes = currGolfer.HcpF - lowHcp.HcpF;
+            }
+        }        
+
+        for(let index = 0; index < GolfersThatPlayed.length; index++){
+            alert(GolfersThatPlayed[index].Name + ":" + GolfersThatPlayed[index].HcpF + ":" + GolfersThatPlayed[index].Strokes);                           
+        }
+
+        //alert(GolfersThatPlayed);        
+
+/*
+        for(let index = 0; index < size; index++){
+            alert($scope.Golfers[index].Name);
+            hcpPerson = $scope.Golfers.filter(function(item){
+                return (item[index]);
+            });            
+        }
+*/
+        //hcpPerson = $scope.Golfers.filter(function(item){
+        //    return (item.Name = "Hal")
+        //});
+
+        //alert(hcpPerson.Name);
+        /*
+            loop through each golfer that plays
+        */
+
+        $scope.ShowSkins = false;
+    };
+
+    /*$scope.AddGolfer = function(){
+        alert("Add golfer");
+
+        //push("<tr><td></td><td></td></tr>");
+    };*/
+});
+</script>
+
+</body>
+</html>
