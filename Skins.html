@@ -17,34 +17,19 @@
 <select ng-change="selectedSide" ng-model="selectedSide" ng-options="y.Name for (x, y) in Sides"></select>
 
 {{selectedSide.Name}}
+{{selectedSide.Holes}}
 
 <table id="AllInfo" class="table table-striped table-bordered table-hover">
     <tr>
         <th>Name</th>
         <th>Hole #</th>
-        <th>{{selectedSide.H1}}</th>
-        <th>{{selectedSide.H2}}</th>
-        <th>{{selectedSide.H3}}</th>
-        <th>{{selectedSide.H4}}</th>
-        <th>{{selectedSide.H5}}</th>
-        <th>{{selectedSide.H6}}</th>
-        <th>{{selectedSide.H7}}</th>
-        <th>{{selectedSide.H8}}</th>
-        <th>{{selectedSide.H9}}</th>
+        <th ng-repeat = "x in Sides.Side2.Holes">{{x.H}}</th>        
     </tr>
 
     <tr>
         <th></th>
         <th>Hcp</th>
-        <th>{{selectedSide.Hcp1}}</th>
-        <th>{{selectedSide.Hcp2}}</th>
-        <th>{{selectedSide.Hcp3}}</th>
-        <th>{{selectedSide.Hcp4}}</th>
-        <th>{{selectedSide.Hcp5}}</th>
-        <th>{{selectedSide.Hcp6}}</th>
-        <th>{{selectedSide.Hcp7}}</th>
-        <th>{{selectedSide.Hcp8}}</th>
-        <th>{{selectedSide.Hcp9}}</th>
+        <th ng-repeat = "x in Sides.Side2.Holes">{{x.Hcp}}</th>                
     </tr>
     
     <tr ng-repeat = "x in Golfers | orderBy: selectedSide.Name == 'Front' ? 'HcpF' : 'HcpB' ">
@@ -83,42 +68,59 @@
 var app = angular.module('myApp', []);
 app.controller('myCtrl', function($scope) {
     $scope.ShowSkins = true;
+    /*$scope.Sides = {
+        Side1 : {Name : "Front",
+            H1 : 1, Hcp1 : 8,   H2 : 2, Hcp2 : 5,   H3 : 3, Hcp3 : 9,
+            H4 : 4, Hcp4 : 3,   H5 : 5, Hcp5 : 7,   H6 : 6, Hcp6 : 1,
+            H7 : 7, Hcp7 : 2,   H8 : 8, Hcp8 : 4,   H9 : 9, Hcp9 : 6},
+        Side2 : {Name : "Back",
+            H1 : 10, Hcp1 : 5,  H2 : 11, Hcp2 : 3,  H3 : 12, Hcp3 : 6,
+            H4 : 13, Hcp4 : 7,  H5 : 14, Hcp5 : 9,  H6 : 15, Hcp6 : 8,
+            H7 : 16, Hcp7 : 1,  H8 : 17, Hcp8 : 4,  H9 : 18, Hcp9 : 2 },
+    };*/
+
     $scope.Sides = {
         Side1 : {Name : "Front",
-            H1 : "1", Hcp1 : "15",  H2 : "2", Hcp2 : "9",   H3 : "3", Hcp3 : "17",
-            H4 : "4", Hcp4 : "7",   H5 : "5", Hcp5 : "13",  H6 : "6", Hcp6 : "1",
-            H7 : "7", Hcp7 : "3",   H8 : "8", Hcp8 : "5",   H9 : "9", Hcp9 : "11"},
+        Holes :
+            [   {H : 1, Hcp : 15, WHcp : 8},   {H : 2, Hcp : 9,  WHcp : 5},    {H : 3, Hcp : 17, WHcp : 9},
+                {H : 4, Hcp : 7,  WHcp : 3},   {H : 5, Hcp : 13, WHcp : 7},    {H : 6, Hcp : 1,  WHcp : 1},
+                {H : 7, Hcp : 3,  WHcp : 2},   {H : 8, Hcp : 5,  WHcp : 4},    {H : 9, Hcp : 11, WHcp : 6}
+            ]},            
+
         Side2 : {Name : "Back",
-            H1 : "10", Hcp1 : "10", H2 : "11", Hcp2 : "6",  H3 : "12", Hcp3 : "12",
-            H4 : "13", Hcp4 : "14", H5 : "14", Hcp5 : "18", H6 : "15", Hcp6 : "16",
-            H7 : "16", Hcp7 : "2",  H8 : "17", Hcp8 : "8",  H9 : "18", Hcp9 : "4"},
-    };
+        Holes :
+            [
+                {H : 10, Hcp : 10, WHcp : 5},  {H : 11, Hcp : 6, WHcp : 3},  {H : 12, Hcp : 12, WHcp : 6},
+                {H : 13, Hcp : 14, WHcp : 7},  {H : 14, Hcp : 18, WHcp : 9},  {H : 15, Hcp : 16, WHcp : 8},
+                {H : 16, Hcp : 2, WHcp : 1},  {H : 17, Hcp : 8, WHcp : 4},  {H : 18, Hcp : 4, WHcp : 2}
+            ]}
+    };                 
 
     $scope.Golfers = [
         {Name : "Tyler",    HcpF : 10,  HcpB : 8,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
         {Name : "Tozzi",    HcpF : 11,  HcpB : 9,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
         {Name : "Jim G",    HcpF : 16,  HcpB : 13,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Tony",     HcpF : 9,   HcpB : 8,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Hal",      HcpF : 7,   HcpB : 6,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Tony",     HcpF : 9,   HcpB : 8,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Hal",      HcpF : 7,   HcpB : 6,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
         {Name : "Darrin",   HcpF : 14,  HcpB : 12,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
         {Name : "Tom",      HcpF : 13,  HcpB : 10,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Jim S",    HcpF : 10,  HcpB : 8,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Donny",    HcpF : 11,  HcpB : 9,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Jim S",    HcpF : 10,  HcpB : 8,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Donny",    HcpF : 11,  HcpB : 9,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
         {Name : "Frency",   HcpF : 19,  HcpB : 16,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
         {Name : "Dan",      HcpF : 14,  HcpB : 12,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
         {Name : "Gordon",   HcpF : 17,  HcpB : 14,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Neil",     HcpF : 9,   HcpB : 7,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Neil",     HcpF : 9,   HcpB : 7,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
         {Name : "Jerry",    HcpF : 15,  HcpB : 13,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Trique",   HcpF : 9,   HcpB : 8,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Nick",     HcpF : 10,  HcpB : 8,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Hank",     HcpF : 10,  HcpB : 8,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Trique",   HcpF : 9,   HcpB : 8,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Nick",     HcpF : 10,  HcpB : 8,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Hank",     HcpF : 10,  HcpB : 8,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
         {Name : "Jamison",  HcpF : 12,  HcpB : 10,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Mark",     HcpF : 11,  HcpB : 9,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Ryan",     HcpF : 10,  HcpB : 9,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Sal",      HcpF : 9,   HcpB : 8,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Mark",     HcpF : 11,  HcpB : 9,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Ryan",     HcpF : 10,  HcpB : 9,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Sal",      HcpF : 9,   HcpB : 8,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
         {Name : "Jeff",     HcpF : 13,  HcpB : 11,  Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Eddie V",  HcpF : 10,  HcpB : 9,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
-        {Name : "Zack",     HcpF : 9,   HcpB : 7,   Strokes : 0,   S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0}
+        {Name : "Eddie V",  HcpF : 10,  HcpB : 9,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0},
+        {Name : "Zack",     HcpF : 9,   HcpB : 7,   Strokes : 0,  S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 0, S8: 0, S9: 0}
     ];
 
     $scope.Scorecard = [
@@ -145,6 +147,7 @@ app.controller('myCtrl', function($scope) {
     $scope.GetSkins = function(){
         //alert($scope.Golfers[0].Name); //make sure something displays
         //alert($scope.Golfers.length); //correct number of golfers in league
+        alert($scope.Sides.Front.length);
 
         let size = $scope.Golfers.length;
 
@@ -171,49 +174,85 @@ app.controller('myCtrl', function($scope) {
         }*/        
 
         //selection sort for now
+        let sidePlayed = $scope.selectedSide.Name;
         for(let x = 0; x < GolfersThatPlayed.length; x++){
             for(let y = x; y < GolfersThatPlayed.length; y++){
-                if(GolfersThatPlayed[y].HcpF < GolfersThatPlayed[x].HcpF){
-                    let temp = GolfersThatPlayed[x]; 
-                    GolfersThatPlayed[x] = GolfersThatPlayed[y];
-                    GolfersThatPlayed[y] = temp;
-                }
+                if(sidePlayed == "Front"){
+                    if(GolfersThatPlayed[y].HcpF < GolfersThatPlayed[x].HcpF){
+                        let temp = GolfersThatPlayed[x]; 
+                        GolfersThatPlayed[x] = GolfersThatPlayed[y];
+                        GolfersThatPlayed[y] = temp;
+                    }
+                }   
+                else if (sidePlayed == "Back"){
+                    if(GolfersThatPlayed[y].HcpB < GolfersThatPlayed[x].HcpB){
+                        let temp = GolfersThatPlayed[x]; 
+                        GolfersThatPlayed[x] = GolfersThatPlayed[y];
+                        GolfersThatPlayed[y] = temp;
+                    }
+                }             
             }            
         }
 
-        //go through each score and see what holes you get strokes on
+        //go through each score and see how many strokes you get off of the lowest hcp
         let lowHcp = GolfersThatPlayed[0];
 
         for(let index = 1; index < GolfersThatPlayed.length; index++){
             let currGolfer = GolfersThatPlayed[index];
-            if(currGolfer.HcpF > lowHcp.HcpF){
-                alert(currGolfer.HcpF + ":" + lowHcp.HcpF);
-                currGolfer.Strokes = currGolfer.HcpF - lowHcp.HcpF;
+            if(sidePlayed == "Front"){
+                if(currGolfer.HcpF > lowHcp.HcpF){
+                    //alert(currGolfer.HcpF + ":" + lowHcp.HcpF);
+                    currGolfer.Strokes = currGolfer.HcpF - lowHcp.HcpF;
+                }                
             }
+            else if (sidePlayed == "Back"){
+                if(currGolfer.HcpB > lowHcp.HcpB){
+                    //alert(currGolfer.HcpF + ":" + lowHcp.HcpF);
+                    currGolfer.Strokes = currGolfer.HcpB - lowHcp.HcpB;
+                }
+            }            
         }        
-
-        for(let index = 0; index < GolfersThatPlayed.length; index++){
-            alert(GolfersThatPlayed[index].Name + ":" + GolfersThatPlayed[index].HcpF + ":" + GolfersThatPlayed[index].Strokes);                           
-        }
-
-        //alert(GolfersThatPlayed);        
-
-/*
-        for(let index = 0; index < size; index++){
-            alert($scope.Golfers[index].Name);
-            hcpPerson = $scope.Golfers.filter(function(item){
-                return (item[index]);
-            });            
-        }
-*/
-        //hcpPerson = $scope.Golfers.filter(function(item){
-        //    return (item.Name = "Hal")
-        //});
-
-        //alert(hcpPerson.Name);
+        
         /*
-            loop through each golfer that plays
+        PUT THIS INTO ITS OWN METHOD
+        logic to calculate net scores
+        score = difference between low hcp and curr player hcp
+        cases:
+        score = 0 - do nothing 
+        score 1-9 - take off 1 stroke per hole per score
+            if score = 3 take off 1 stroke for 3 lowest hcp holes
+        score > 9 - take off 1 stroke for each of the 9 holes
+            also take off 1 for each of the lowest hcp holes until you 
+            get to score value        
         */
+
+        $scope.test = filterFilter($scope.Side[0], '2');
+        for(let index = 0; index < GolfersThatPlayed.length; index++){
+            let currGolfer = GolfersThatPlayed[index];            
+
+            if(currGolfer.Strokes == 0){
+                continue;
+            }
+            else if(currGolfer.Strokes <= 9 ){
+                for(let hole = 1; hole < currGolfer.Strokes; hole++){
+                    //start at the lowest hcp hole and move up
+                    //take one stroke off until you hit currGolfer.Strokes value
+                }
+            }
+            else{
+                //currGolfer.Strokes > 9
+                let extraStrokes = currGolfer.Strokes % 9;
+                for(let hole = 1; hole < currGolfer.Strokes; hole++){
+                    //start at the lowest hcp hole and move up
+                    //take one stroke off until you hit currGolfer.Strokes value
+                    if(hole < extraStrokes){
+                        //take two strokes off for the hole
+                    }
+                    
+                    //take only one stroke off                     
+                }
+            }
+        }                
 
         $scope.ShowSkins = false;
     };
