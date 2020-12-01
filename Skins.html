@@ -17,18 +17,22 @@
 <div ng-show="SideSelected">
     <table id="AllInfo" class="table table-striped table-bordered table-hover">
         <tr>
+            <th></th>            
             <th>Name</th>
             <th>Hole #</th>
             <th ng-repeat = "x in HoleInfo">{{x.H}}</th>        
         </tr>
 
         <tr>
+            <th>Remove</th>
             <th></th>
             <th>Hcp</th>
             <th ng-repeat = "x in HoleInfo">{{x.Hcp}}</th>                
         </tr>
         
-        <tr ng-repeat = "x in Golfers | orderBy: selectedSide.Name == 'Front' ? 'HcpF' : 'HcpB' ">
+        <!--<tr ng-repeat = "x in Golfers | orderBy: selectedSide.Name == 'Front' ? 'HcpF' : 'HcpB' ">-->
+        <tr ng-repeat = "x in Golfers | filter:{'show' : true} | orderBy: selectedSide.Name == 'Front' ? 'HcpF' : 'HcpB' ">
+            <td><button class="btn btn-danger" ng-click="removeRow(x.Name)">X</button></td>
             <td>{{x.Name}}</td>
             <td>{{selectedSide.Name == "Front" ? x.HcpF : x.HcpB}}</td>
             <td ng-repeat = "y in x.Holes">
@@ -41,6 +45,7 @@
 
     <div id="SkinsTable" ng-hide="ShowSkins">
         <!-- Calculate if any scores get skins -->
+        <label>Low Handicap: {{LowHcp}}</label>
 
         <table class="table table-striped table-bordered table-hover">
             <tr>
