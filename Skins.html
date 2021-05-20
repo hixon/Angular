@@ -2,8 +2,11 @@
 <html>
     <head>
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> -->
+
+        <link rel="stylesheet" href="bootstrap.min.css"/>
+        <script src="angular.min.js"></script>
         <link rel="stylesheet" href="Site.css">
     </head>
 <body>
@@ -27,7 +30,8 @@
             <th>Remove</th>
             <th></th>
             <th>Hcp</th>
-            <th ng-repeat = "x in HoleInfo">{{x.Hcp}}</th>                
+            <th ng-repeat = "x in HoleInfo">{{x.Hcp}}</th>   
+            <th>Score : Points</th>             
         </tr>
         
         <!--<tr ng-repeat = "x in Golfers | orderBy: selectedSide.Name == 'Front' ? 'HcpF' : 'HcpB' ">-->
@@ -36,8 +40,9 @@
             <td>{{x.Name}}</td>
             <td>{{selectedSide.Name == "Front" ? x.HcpF : x.HcpB}}</td>
             <td ng-repeat = "y in x.Holes">
-                <input class="scoreInput" type="number" ng-model="y.Score" max="10" min="1">
-            </td>            
+                <input class="scoreInput" type="number" ng-change="UpdateScore(x.Name, y.Score)" ng-model="y.Score" max="15" min="1"> : {{y.Points}}
+            </td> 
+            <td>{{x.TotalScore}} : {{x.TotalPoints}}</td>           
         </tr>    
     </table>
 
@@ -61,7 +66,7 @@
                 <td>{{x.HScore}}</td>
             </tr>
         </table>
-    </div>
+    </div>    
 </div>
 
 </div>

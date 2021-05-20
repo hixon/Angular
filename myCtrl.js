@@ -6,8 +6,8 @@ app.controller('myCtrl', function($scope) {
         Side1 : {Name : "Front",
         Holes :
             [   {H : 1, Hcp : 15, WHcp : 8},   {H : 2, Hcp : 9,  WHcp : 5},    {H : 3, Hcp : 17, WHcp : 9},
-                {H : 4, Hcp : 7,  WHcp : 3},   {H : 5, Hcp : 13, WHcp : 7},    {H : 6, Hcp : 1,  WHcp : 1},
-                {H : 7, Hcp : 3,  WHcp : 2},   {H : 8, Hcp : 5,  WHcp : 4},    {H : 9, Hcp : 11, WHcp : 6}
+                {H : 4, Hcp : 7,  WHcp : 4},   {H : 5, Hcp : 13, WHcp : 7},    {H : 6, Hcp : 1,  WHcp : 1},
+                {H : 7, Hcp : 3,  WHcp : 2},   {H : 8, Hcp : 5,  WHcp : 3},    {H : 9, Hcp : 11, WHcp : 6}
             ]},            
 
         Side2 : {Name : "Back",
@@ -19,175 +19,196 @@ app.controller('myCtrl', function($scope) {
             ]}
     };                 
 
-    $scope.Golfers = [
-        {Name : "Tyler",    HcpF : 10,  HcpB : 8,   Strokes : 0, show : true,
+    $scope.Golfers = [ 
+        {Name : "Amanda",     HcpF : 22,   HcpB : 18,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},
+        {Name : "Brett",     HcpF : 13,   HcpB : 11,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},
+        {Name : "Chris F",     HcpF : 11,   HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},
+        {Name : "Dan",      HcpF : 14,  HcpB : 12,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},
+        {Name : "Donny",    HcpF : 12,  HcpB : 10,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
         ]}, 
-        {Name : "Tozzi",    HcpF : 11,  HcpB : 9,   Strokes : 0, show : true,
+        {Name : "Eddie V",  HcpF : 11,  HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},
+        {Name : "Eddie V Jr",     HcpF : 13,   HcpB : 11,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},
+        {Name : "Frenchy",   HcpF : 19,  HcpB : 16,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
         ]}, 
-        {Name : "Jim G",    HcpF : 16,  HcpB : 13,  Strokes : 0, show : true, 
+        {Name : "Gordon",   HcpF : 18,  HcpB : 15,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
         ]}, 
-        {Name : "Tony",     HcpF : 9,   HcpB : 8,   Strokes : 0, show : true,
+        {Name : "Hal",      HcpF : 8,   HcpB : 7,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},
+        {Name : "Hank",     HcpF : 11,  HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},
+        {Name : "Jamison",  HcpF : 13,  HcpB : 11,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},
+        {Name : "Jason",     HcpF : 5,   HcpB : 4,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},
+        {Name : "Jeff",     HcpF : 15,  HcpB : 12,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},
+        {Name : "Jim G",    HcpF : 16,  HcpB : 13,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
         ]}, 
-        {Name : "Hal",      HcpF : 7,   HcpB : 6,   Strokes : 0, show : true,
+        {Name : "Jim S",    HcpF : 11,  HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
         ]}, 
-        {Name : "Darrin",   HcpF : 14,  HcpB : 12,  Strokes : 0, show : true,
+        {Name : "Mark",     HcpF : 11,  HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
         ]}, 
-        {Name : "Tom",      HcpF : 13,  HcpB : 10,  Strokes : 0, show : true,
+        {Name : "Ryan",     HcpF : 11,  HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
         ]}, 
-        {Name : "Jim S",    HcpF : 10,  HcpB : 8,   Strokes : 0, show : true,
+        {Name : "Sal",      HcpF : 11,   HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
         ]}, 
-        {Name : "Donny",    HcpF : 11,  HcpB : 9,   Strokes : 0, show : true,
+        {Name : "Scott",     HcpF : 9,   HcpB : 7,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},
+        {Name : "Shawn",     HcpF : 11,   HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
         ]}, 
-        {Name : "Frenchy",   HcpF : 19,  HcpB : 16,  Strokes : 0, show : true,
+        {Name : "Tom",      HcpF : 14,  HcpB : 12,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
         ]}, 
-        {Name : "Dan",      HcpF : 14,  HcpB : 12,  Strokes : 0, show : true,
+        {Name : "Tony",     HcpF : 10,   HcpB : 8,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},     
+        {Name : "Tozzi",    HcpF : 11,  HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
+        Holes: 
+        [   
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
         ]}, 
-        {Name : "Gordon",   HcpF : 17,  HcpB : 14,  Strokes : 0, show : true,
+        {Name : "Trique",   HcpF : 11,   HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
         ]}, 
-        {Name : "Neil",     HcpF : 9,   HcpB : 7,   Strokes : 0, show : true,
+        {Name : "Tyler",    HcpF : 10,  HcpB : 8,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
-        ]}, 
-        {Name : "Jerry",    HcpF : 15,  HcpB : 13,  Strokes : 0, show : true,
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]},                                                                                                                                                                
+        {Name : "Zack",     HcpF : 10,   HcpB : 8,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
         Holes: 
         [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
-        ]}, 
-        {Name : "Trique",   HcpF : 9,   HcpB : 8,   Strokes : 0, show : true, 
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
-        ]}, 
-        {Name : "Nick",     HcpF : 10,  HcpB : 8,   Strokes : 0, show : true,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
-        ]}, 
-        {Name : "Hank",     HcpF : 10,  HcpB : 8,   Strokes : 0, show : true,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
-        ]}, 
-        {Name : "Jamison",  HcpF : 12,  HcpB : 10,  Strokes : 0, show : true,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
-        ]}, 
-        {Name : "Mark",     HcpF : 11,  HcpB : 9,   Strokes : 0, show : true,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
-        ]}, 
-        {Name : "Ryan",     HcpF : 10,  HcpB : 9,   Strokes : 0, show : true,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
-        ]}, 
-        {Name : "Sal",      HcpF : 9,   HcpB : 8,   Strokes : 0, show : true,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
-        ]}, 
-        {Name : "Jeff",     HcpF : 13,  HcpB : 11,  Strokes : 0, show : true,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
-        ]}, 
-        {Name : "Eddie V",  HcpF : 10,  HcpB : 9,   Strokes : 0, show : true,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
-        ]}, 
-        {Name : "Zack",     HcpF : 9,   HcpB : 7,   Strokes : 0, show : true,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0 }, {H : 2, Score : 0, HScore : 0 }, {H : 3, Score : 0, HScore : 0 },
-            {H : 4, Score : 0, HScore : 0 }, {H : 5, Score : 0, HScore : 0 }, {H : 6, Score : 0, HScore : 0 },
-            {H : 7, Score : 0, HScore : 0 }, {H : 8, Score : 0, HScore : 0 }, {H : 9, Score : 0, HScore : 0 }
-        ]}
+            {H : 1, Score : 0, HScore : 0, Points : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0 },
+            {H : 4, Score : 0, HScore : 0, Points : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0 },
+            {H : 7, Score : 0, HScore : 0, Points : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 }
+        ]}                                         
     ];
 
     $scope.Scorecard = [
@@ -222,6 +243,20 @@ app.controller('myCtrl', function($scope) {
         $scope.SideSelected = true;          
     }
 
+    $scope.UpdateScore = function(name, score){
+        if (score > 0){
+            //find golfer with the name given
+            let currGolfer;
+            for(let index = 0; index < $scope.Golfers.length; index++){
+                if($scope.Golfers[index].Name == name){
+                    currGolfer = $scope.Golfers[index];
+                    break;
+                }
+            }
+            currGolfer.TotalScore += score;
+        }        
+    }
+
     $scope.GetSkins = function(){        
         let size = $scope.Golfers.length;
         let player = $scope.Golfers[0];
@@ -233,7 +268,9 @@ app.controller('myCtrl', function($scope) {
             if($scope.Golfers[index].Holes[0].Score > 0){
                 GolfersThatPlayed.push($scope.Golfers[index]);
             }
-        }           
+        }   
+        
+        console.log("This weeks players: ", GolfersThatPlayed);
 
         //selection sort for now
         let sidePlayed = $scope.selectedSide.Name;
@@ -261,20 +298,22 @@ app.controller('myCtrl', function($scope) {
         }
 
         //go through each score and see how many strokes you get off of the lowest hcp
-        let lowHcp = GolfersThatPlayed[0];  
+        let lowHcp = GolfersThatPlayed[0];          
         
         if(sidePlayed == "Front"){
-            $scope.LowHcp = lowHcp.HcpF;
+            $scope.LowHcp = lowHcp.HcpF;            
         }
         else if (sidePlayed == "Back"){
             $scope.LowHcp = lowHcp.HcpB;
         }
+        console.log("Low HCP today: ", lowHcp);
 
         for(let index = 1; index < GolfersThatPlayed.length; index++){
             let currGolfer = GolfersThatPlayed[index];
             if(sidePlayed == "Front"){
-                if(currGolfer.HcpF > lowHcp.HcpF){                    
+                if(currGolfer.HcpF > lowHcp.HcpF){                                        
                     currGolfer.Strokes = currGolfer.HcpF - lowHcp.HcpF;
+                    console.log("HCP diffrence for: ", currGolfer);
                 }                
             }
             else if (sidePlayed == "Back"){
@@ -296,10 +335,11 @@ app.controller('myCtrl', function($scope) {
             also take off 1 for each of the lowest hcp holes until you 
             get to score value        
         */
+       console.log("side deets: ", SideDeets);
         for(let index = 0; index < GolfersThatPlayed.length; index++){
             let currGolfer = GolfersThatPlayed[index];            
 
-            if(currGolfer.Strokes == 0){
+            if(currGolfer.Strokes == 0){                
                 for(let hole = 0; hole < currGolfer.Holes.length; hole++){        
                     currGolfer.Holes[hole].HScore = currGolfer.Holes[hole].Score;
                 }
@@ -307,8 +347,9 @@ app.controller('myCtrl', function($scope) {
             else if(currGolfer.Strokes <= 9 ){
                 for(let hole = 0; hole < currGolfer.Holes.length; hole++){                    
                     //take one stroke off until you hit currGolfer.Strokes value   
-                    if(SideDeets.Holes[hole].WHcp <= currGolfer.Strokes){
+                    if(SideDeets.Holes[hole].WHcp <= currGolfer.Strokes){                        
                         currGolfer.Holes[hole].HScore = currGolfer.Holes[hole].Score - 1;
+                        console.log("Weighted HCP changed: ", currGolfer)
                     }   
                     else{
                         currGolfer.Holes[hole].HScore = currGolfer.Holes[hole].Score;
@@ -331,6 +372,22 @@ app.controller('myCtrl', function($scope) {
                 }
             }
         } 
+
+        //possibly do something here to assign points to each score against par
+        for(let index = 0; index < $scope.Golfers.length; index++){
+            let side = $scope.selectedSide.Name; //this is used to look at the par values later
+            //for each golfer loop through all holes
+            for(let hole = 0; hole < $scope.Golfers[index].Holes.length; hole++){
+                let currentHole = $scope.Golfers[index].Holes[hole].H;
+                let currPar = GetPar(currentHole, side);
+                $scope.Golfers[index].Holes[hole].Points = GetHolePoints($scope.Golfers[index].Holes[hole].HScore, currPar);
+                $scope.Golfers[index].TotalPoints += $scope.Golfers[index].Holes[hole].Points;
+            }
+        }
+
+        for(let index = 0; index < $scope.Golfers.length; index++){
+            console.log($scope.Golfers[index].Name, ":", $scope.Golfers[index].Holes);
+        }
 
         /*
         To get skins we need to find the lowest score for each hole and see if there are any ties        
@@ -359,7 +416,8 @@ app.controller('myCtrl', function($scope) {
                     SkinInfo = {Name: GolfersThatPlayed[golfer].Name, Hole: GolfersThatPlayed[golfer].Holes[hole].H, Score: GolfersThatPlayed[golfer].Holes[hole].Score, HScore: GolfersThatPlayed[golfer].Holes[hole].HScore};
                     currHoleSkins.push(SkinInfo);
                     scoreCount = 1; 
-                    minScore = GolfersThatPlayed[golfer].Holes[hole].HScore;                                     
+                    minScore = GolfersThatPlayed[golfer].Holes[hole].HScore;   
+                    console.log(SkinInfo);                                  
                 }
                 else if (GolfersThatPlayed[golfer].Holes[hole].HScore == minScore){
                     //if more than one person we can skip the loop
@@ -389,4 +447,42 @@ app.controller('myCtrl', function($scope) {
             }
         }
     };
+
+    function GetPar(hole, side){
+        if (side == "Back"){
+            hole = hole + 9;
+        }
+
+        for (let index = 0; index < $scope.Scorecard.length; index++){
+            if($scope.Scorecard[index].Hole == hole){
+                return $scope.Scorecard[index].Par;
+            }
+        }
+    }
+
+    function GetHolePoints(score, par){
+        //par
+        if(score == par){
+            return 2;
+        }
+        //birdie
+        else if (score == par - 1){
+            return 4;
+        }
+        //eagle
+        else if (score == par - 2){
+            return 8;
+        }
+        //albatross
+        else if (score == par - 3){
+            return 10;
+        }
+        //bogey
+        else if (score == par + 1){
+            return 1;
+        }
+        else{
+            return 0;
+        }
+    }
 });
