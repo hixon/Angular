@@ -31,7 +31,7 @@
             <th></th>
             <th>Hcp</th>
             <th ng-repeat = "x in HoleInfo">{{x.Hcp}}</th>   
-            <th>Score : Points</th>             
+            <th>Score<sub>Points</sub></th>             
         </tr>
         
         <!--<tr ng-repeat = "x in Golfers | orderBy: selectedSide.Name == 'Front' ? 'HcpF' : 'HcpB' ">-->
@@ -40,9 +40,9 @@
             <td>{{x.Name}}</td>
             <td>{{selectedSide.Name == "Front" ? x.HcpF : x.HcpB}}</td>
             <td ng-repeat = "y in x.Holes">
-                <input class="scoreInput" type="number" ng-change="UpdateScore(x.Name, y.Score)" ng-model="y.Score" max="15" min="1"> : {{y.Points}}
+                <input class="scoreInput" type="number" ng-change="UpdateScore(x.Name, y.Score)" ng-model="y.Score" max="15" min="1"><sub>{{y.Points}}</sub><sup>{{"*".repeat((y.Swings))}}</sup>
             </td> 
-            <td>{{x.TotalScore}} : {{x.TotalPoints}}</td>           
+            <td>{{x.TotalScore}}<sub>{{x.TotalPoints}}</sub></td>           
         </tr>    
     </table>
 
