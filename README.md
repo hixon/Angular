@@ -6,3 +6,4 @@ small angular stuff
 - only allow buttons to be pressed once all required fields are populated
 - build checks on scores to make sure there are scores for each hole
 - ~~dynamically select data based on the side picked~~
+- add dollar fund values with a summary at the end
