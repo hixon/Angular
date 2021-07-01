@@ -1,7 +1,5 @@
 {
-    "players" : [
-    {
-    "Name": "Jim Shelton",
+    "Name": "Jim S",
     "PID": 17,
     "HcpDiff": 7.84,
     "HcpF": 9,
@@ -77,7 +75,7 @@
     ]
 },
 {
-    "Name": "Frenchy Cousineau",
+    "Name": "Frenchy C",
     "PID": 2,
     "HcpDiff": 17.1,
     "HcpF": 21,
@@ -153,7 +151,7 @@
     ]
 },
 {
-    "Name": "Jamison Judge",
+    "Name": "Jamison J",
     "PID": 10,
     "HcpDiff": 12.18,
     "HcpF": 15,
@@ -229,7 +227,7 @@
     ]
 },
 {
-    "Name": "Mark McNeil",
+    "Name": "Mark M",
     "PID": 14,
     "HcpDiff": 10.56,
     "HcpF": 13,
@@ -305,7 +303,7 @@
     ]
 },
 {
-    "Name": "Shawn Stevens",
+    "Name": "Shawn S",
     "PID": 20,
     "HcpDiff": 11.26,
     "HcpF": 14,
@@ -381,7 +379,7 @@
     ]
 },
 {
-    "Name": "Ed Tozzi",
+    "Name": "Ed T",
     "PID": 21,
     "HcpDiff": 10.28,
     "HcpF": 12,
@@ -457,7 +455,7 @@
     ]
 },
 {
-    "Name": "Jason Petrolo",
+    "Name": "Jason P",
     "PID": 28,
     "HcpDiff": 6.15,
     "HcpF": 7,
@@ -533,7 +531,7 @@
     ]
 },
 {
-    "Name": "Chris Farren",
+    "Name": "Chris F",
     "PID": 1,
     "HcpDiff": 8.8,
     "HcpF": 11,
@@ -609,7 +607,7 @@
     ]
 },
 {
-    "Name": "Jeff Volk",
+    "Name": "Jeff V",
     "PID": 24,
     "HcpDiff": 14.29,
     "HcpF": 17,
@@ -685,7 +683,7 @@
     ]
 },
 {
-    "Name": "Tom Ondrey",
+    "Name": "Tom O",
     "PID": 15,
     "HcpDiff": 9.74,
     "HcpF": 12,
@@ -761,7 +759,7 @@
     ]
 },
 {
-    "Name": "Eddie Vinay",
+    "Name": "Eddie V",
     "PID": 22,
     "HcpDiff": 5.98,
     "HcpF": 7,
@@ -837,7 +835,7 @@
     ]
 },
 {
-    "Name": "Jim Gusky",
+    "Name": "Jim G",
     "PID": 6,
     "HcpDiff": 13.01,
     "HcpF": 16,
@@ -913,7 +911,7 @@
     ]
 },
 {
-    "Name": "Donny Fast",
+    "Name": "Donny F",
     "PID": 3,
     "HcpDiff": 8.98,
     "HcpF": 11,
@@ -989,7 +987,7 @@
     ]
 },
 {
-    "Name": "Sal Gori",
+    "Name": "Sal G",
     "PID": 5,
     "HcpDiff": 6.54,
     "HcpF": 8,
@@ -1065,7 +1063,7 @@
     ]
 },
 {
-    "Name": "Hank Haddad",
+    "Name": "Hank H",
     "PID": 7,
     "HcpDiff": 7.39,
     "HcpF": 9,
@@ -1141,7 +1139,7 @@
     ]
 },
 {
-    "Name": "Trique McLaren",
+    "Name": "Trique M",
     "PID": 13,
     "HcpDiff": 11.97,
     "HcpF": 14,
@@ -1217,7 +1215,7 @@
     ]
 },
 {
-    "Name": "Hal Reck",
+    "Name": "Hal R",
     "PID": 16,
     "HcpDiff": 10.26,
     "HcpF": 12,
@@ -1293,7 +1291,7 @@
     ]
 },
 {
-    "Name": "Ryan Hixon",
+    "Name": "Ryan H",
     "PID": 8,
     "HcpDiff": 8.96,
     "HcpF": 11,
@@ -1369,7 +1367,7 @@
     ]
 },
 {
-    "Name": "Dan Morouse",
+    "Name": "Dan M",
     "PID": 27,
     "HcpDiff": null,
     "HcpF": null,
@@ -1445,7 +1443,7 @@
     ]
 },
 {
-    "Name": "Scott Levin",
+    "Name": "Scott L",
     "PID": 11,
     "HcpDiff": 9.2,
     "HcpF": 11,
@@ -1521,7 +1519,7 @@
     ]
 },
 {
-    "Name": "Eddie Vinay Jr",
+    "Name": "Eddie V",
     "PID": 23,
     "HcpDiff": 9.39,
     "HcpF": 11,
@@ -1597,7 +1595,7 @@
     ]
 },
 {
-    "Name": "Amanda Steiner",
+    "Name": "Amanda S",
     "PID": 18,
     "HcpDiff": 17.09,
     "HcpF": 21,
@@ -1673,7 +1671,7 @@
     ]
 },
 {
-    "Name": "Tony Volk",
+    "Name": "Tony V",
     "PID": 25,
     "HcpDiff": 8.96,
     "HcpF": 11,
@@ -1749,7 +1747,7 @@
     ]
 },
 {
-    "Name": "Zack Steiner",
+    "Name": "Zack S",
     "PID": 19,
     "HcpDiff": 7.5,
     "HcpF": 9,
@@ -1825,7 +1823,7 @@
     ]
 },
 {
-    "Name": "Tyler Golden",
+    "Name": "Tyler G",
     "PID": 4,
     "HcpDiff": 7.96,
     "HcpF": 10,
@@ -1901,7 +1899,7 @@
     ]
 },
 {
-    "Name": "Dan Lovich",
+    "Name": "Dan L",
     "PID": 12,
     "HcpDiff": 10.77,
     "HcpF": 13,
@@ -1977,7 +1975,7 @@
     ]
 },
 {
-    "Name": "Brett Williams",
+    "Name": "Brett W",
     "PID": 26,
     "HcpDiff": 11.44,
     "HcpF": 14,
@@ -2053,7 +2051,7 @@
     ]
 },
 {
-    "Name": "Gordon Judge",
+    "Name": "Gordon J",
     "PID": 9,
     "HcpDiff": 15.74,
     "HcpF": 19,
@@ -2126,7 +2124,5 @@
             "Points": 0,
             "Swings": 0
         }
-    ]
-    }
     ]
 }
