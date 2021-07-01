@@ -1,4 +1,6 @@
 {
+     "players" : [
+    {
     "Name": "Jim S",
     "PID": 17,
     "HcpDiff": 7.84,
@@ -2125,4 +2127,6 @@
             "Swings": 0
         }
     ]
+}
+         ]
 }
