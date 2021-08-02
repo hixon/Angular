@@ -208,23 +208,24 @@ app.controller('myCtrl', function($scope, $http) {
             }
         } 
 
+        //check that this works with subbing GolfersThatPlayed for $scope.Golfers...
         //possibly do something here to assign points to each score against par
-        for(let index = 0; index < $scope.Golfers.length; index++){
+        for(let index = 0; index < GolfersThatPlayed.length; index++){
             let side = $scope.selectedSide.Name; //this is used to look at the par values later
             //for each golfer loop through all holes
-            for(let hole = 0; hole < $scope.Golfers[index].Holes.length; hole++){
-                let currentHole = $scope.Golfers[index].Holes[hole].H;
+            for(let hole = 0; hole < GolfersThatPlayed[index].Holes.length; hole++){
+                let currentHole = GolfersThatPlayed[index].Holes[hole].H;
                 let currPar = GetPar(currentHole, side);
-                $scope.Golfers[index].Holes[hole].Points = GetHolePoints($scope.Golfers[index].Holes[hole].HScore, currPar);
-                $scope.Golfers[index].TotalPoints += $scope.Golfers[index].Holes[hole].Points;
+                GolfersThatPlayed[index].Holes[hole].Points = GetHolePoints(GolfersThatPlayed[index].Holes[hole].HScore, currPar);
+                GolfersThatPlayed[index].TotalPoints += GolfersThatPlayed[index].Holes[hole].Points;
 
                 //set the Swings here too
-                $scope.Golfers[index].Holes[hole].Swings = $scope.Golfers[index].Holes[hole].Score - $scope.Golfers[index].Holes[hole].HScore;
+                GolfersThatPlayed[index].Holes[hole].Swings = GolfersThatPlayed[index].Holes[hole].Score - GolfersThatPlayed[index].Holes[hole].HScore;
             }
         }
 
-        for(let index = 0; index < $scope.Golfers.length; index++){
-            console.log($scope.Golfers[index].Name, ":", $scope.Golfers[index].Holes);
+        for(let index = 0; index < GolfersThatPlayed.length; index++){
+            console.log(GolfersThatPlayed[index].Name, ":", GolfersThatPlayed[index].Holes);
         }
 
         /*
