@@ -1,619 +1,11 @@
 {
     "players": [
         {
-            "Name": "Tony V",
-            "PID": 25,
-            "HcpDiff": 8.31,
-            "HcpF": 10,
-            "HcpB": 8,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Eddie V Jr",
-            "PID": 23,
-            "HcpDiff": 9.3,
+            "Name": "Ryan H",
+            "PID": 8,
+            "HcpDiff": 9.08,
             "HcpF": 11,
             "HcpB": 9,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Tyler G",
-            "PID": 4,
-            "HcpDiff": 7.96,
-            "HcpF": 10,
-            "HcpB": 8,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Frenchy C",
-            "PID": 2,
-            "HcpDiff": 17.1,
-            "HcpF": 21,
-            "HcpB": 17,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Brett W",
-            "PID": 26,
-            "HcpDiff": 11.44,
-            "HcpF": 14,
-            "HcpB": 11,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Mark M",
-            "PID": 14,
-            "HcpDiff": 10.56,
-            "HcpF": 13,
-            "HcpB": 11,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Jim S",
-            "PID": 17,
-            "HcpDiff": 8.47,
-            "HcpF": 10,
-            "HcpB": 8,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Ed T",
-            "PID": 21,
-            "HcpDiff": 8.8,
-            "HcpF": 11,
-            "HcpB": 9,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Jamison J",
-            "PID": 10,
-            "HcpDiff": 12.58,
-            "HcpF": 15,
-            "HcpB": 13,
             "Strokes": 0,
             "show": true,
             "TotalScore": 0,
@@ -761,85 +153,9 @@
             ]
         },
         {
-            "Name": "Shawn S",
-            "PID": 20,
-            "HcpDiff": 11.26,
-            "HcpF": 14,
-            "HcpB": 11,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Tom O",
-            "PID": 15,
-            "HcpDiff": 9.91,
+            "Name": "Eddie V Jr",
+            "PID": 23,
+            "HcpDiff": 9.58,
             "HcpF": 12,
             "HcpB": 10,
             "Strokes": 0,
@@ -913,239 +229,11 @@
             ]
         },
         {
-            "Name": "Jason P",
-            "PID": 28,
-            "HcpDiff": 7.22,
-            "HcpF": 9,
-            "HcpB": 7,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Jim G",
-            "PID": 6,
-            "HcpDiff": 13.01,
-            "HcpF": 16,
-            "HcpB": 13,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Jeff V",
-            "PID": 24,
-            "HcpDiff": 13.39,
-            "HcpF": 16,
-            "HcpB": 13,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Trique M",
-            "PID": 13,
-            "HcpDiff": 11.97,
-            "HcpF": 14,
-            "HcpB": 12,
+            "Name": "Mark M",
+            "PID": 14,
+            "HcpDiff": 9.52,
+            "HcpF": 11,
+            "HcpB": 10,
             "Strokes": 0,
             "show": true,
             "TotalScore": 0,
@@ -1219,7 +307,7 @@
         {
             "Name": "Gordon J",
             "PID": 9,
-            "HcpDiff": 15.11,
+            "HcpDiff": 14.71,
             "HcpF": 18,
             "HcpB": 15,
             "Strokes": 0,
@@ -1293,619 +381,11 @@
             ]
         },
         {
-            "Name": "Sal G",
-            "PID": 5,
-            "HcpDiff": 5.59,
-            "HcpF": 7,
-            "HcpB": 6,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Eddie V",
-            "PID": 22,
-            "HcpDiff": 5.75,
-            "HcpF": 7,
-            "HcpB": 6,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Hank H",
-            "PID": 7,
-            "HcpDiff": 8.02,
-            "HcpF": 10,
-            "HcpB": 8,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Dan L",
-            "PID": 12,
-            "HcpDiff": 11.83,
-            "HcpF": 14,
-            "HcpB": 12,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Ryan H",
-            "PID": 8,
-            "HcpDiff": 8.15,
-            "HcpF": 10,
-            "HcpB": 8,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Donny F",
-            "PID": 3,
-            "HcpDiff": 8.98,
-            "HcpF": 11,
-            "HcpB": 9,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Scott L",
-            "PID": 11,
-            "HcpDiff": 9.34,
-            "HcpF": 11,
-            "HcpB": 9,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Hal R",
-            "PID": 16,
-            "HcpDiff": 9.46,
-            "HcpF": 11,
-            "HcpB": 9,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Amanda S",
-            "PID": 18,
-            "HcpDiff": 17.2,
-            "HcpF": 21,
-            "HcpB": 17,
+            "Name": "Jim G",
+            "PID": 6,
+            "HcpDiff": 13.35,
+            "HcpF": 16,
+            "HcpB": 13,
             "Strokes": 0,
             "show": true,
             "TotalScore": 0,
@@ -2053,11 +533,1531 @@
             ]
         },
         {
-            "Name": "Zack S",
-            "PID": 19,
-            "HcpDiff": 7.51,
+            "Name": "Amanda S",
+            "PID": 18,
+            "HcpDiff": 16.48,
+            "HcpF": 20,
+            "HcpB": 16,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Jamison J",
+            "PID": 10,
+            "HcpDiff": 11.45,
+            "HcpF": 14,
+            "HcpB": 11,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Sal G",
+            "PID": 5,
+            "HcpDiff": 4.61,
+            "HcpF": 6,
+            "HcpB": 5,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Jason P",
+            "PID": 28,
+            "HcpDiff": 8.18,
+            "HcpF": 10,
+            "HcpB": 8,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Tony V",
+            "PID": 25,
+            "HcpDiff": 7.57,
             "HcpF": 9,
             "HcpB": 8,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Trique M",
+            "PID": 13,
+            "HcpDiff": 12.22,
+            "HcpF": 15,
+            "HcpB": 12,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Tyler G",
+            "PID": 4,
+            "HcpDiff": 7.96,
+            "HcpF": 10,
+            "HcpB": 8,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Eddie V",
+            "PID": 22,
+            "HcpDiff": 4.85,
+            "HcpF": 6,
+            "HcpB": 5,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Jim S",
+            "PID": 17,
+            "HcpDiff": 8.07,
+            "HcpF": 10,
+            "HcpB": 8,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Donny F",
+            "PID": 3,
+            "HcpDiff": 7.15,
+            "HcpF": 9,
+            "HcpB": 7,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Frenchy C",
+            "PID": 2,
+            "HcpDiff": 17.1,
+            "HcpF": 21,
+            "HcpB": 17,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Ed T",
+            "PID": 21,
+            "HcpDiff": 8.48,
+            "HcpF": 10,
+            "HcpB": 8,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Hal R",
+            "PID": 16,
+            "HcpDiff": 8.12,
+            "HcpF": 10,
+            "HcpB": 8,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Scott L",
+            "PID": 11,
+            "HcpDiff": 8.8,
+            "HcpF": 11,
+            "HcpB": 9,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Hank H",
+            "PID": 7,
+            "HcpDiff": 8.87,
+            "HcpF": 11,
+            "HcpB": 9,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Brett W",
+            "PID": 26,
+            "HcpDiff": 11.28,
+            "HcpF": 14,
+            "HcpB": 11,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Jeff V",
+            "PID": 24,
+            "HcpDiff": 12.91,
+            "HcpF": 16,
+            "HcpB": 13,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Tom O",
+            "PID": 15,
+            "HcpDiff": 10.97,
+            "HcpF": 13,
+            "HcpB": 11,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Dan L",
+            "PID": 12,
+            "HcpDiff": 11.67,
+            "HcpF": 14,
+            "HcpB": 12,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Shawn S",
+            "PID": 20,
+            "HcpDiff": 9.85,
+            "HcpF": 12,
+            "HcpB": 10,
+            "Strokes": 0,
+            "show": true,
+            "TotalScore": 0,
+            "TotalPoints": 0,
+            "Holes": [
+                {
+                    "H": 1,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 2,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 3,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 4,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 5,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 6,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 7,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 8,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                },
+                {
+                    "H": 9,
+                    "Score": 0,
+                    "HScore": 0,
+                    "Points": 0,
+                    "Swings": 0
+                }
+            ]
+        },
+        {
+            "Name": "Zack S",
+            "PID": 19,
+            "HcpDiff": 7.22,
+            "HcpF": 9,
+            "HcpB": 7,
             "Strokes": 0,
             "show": true,
             "TotalScore": 0,
