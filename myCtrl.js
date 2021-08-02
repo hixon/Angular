@@ -1,4 +1,4 @@
-app.controller('myCtrl', function($scope) {
+app.controller('myCtrl', function($scope, $http) {
     $scope.ShowSkins = true;  
     $scope.SideSelected = false;  
 
@@ -19,197 +19,9 @@ app.controller('myCtrl', function($scope) {
             ]}
     };                 
 
-    $scope.Golfers = [ 
-        {Name : "Amanda",     HcpF : 22,   HcpB : 19,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},
-        {Name : "Brett",     HcpF : 13,   HcpB : 11,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},
-        {Name : "Chris F",     HcpF : 11,   HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},
-        {Name : "Dan",      HcpF : 12,  HcpB : 10,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},
-        {Name : "Donny",    HcpF : 12,  HcpB : 10,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}, 
-        {Name : "Eddie V",  HcpF : 10,  HcpB : 8,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},
-        {Name : "Eddie V Jr",     HcpF : 13,   HcpB : 11,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},
-        {Name : "Frenchy",   HcpF : 19,  HcpB : 16,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}, 
-        {Name : "Gordon",   HcpF : 19,  HcpB : 16,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}, 
-        {Name : "Hal",      HcpF : 9,   HcpB : 8,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},
-        {Name : "Hank",     HcpF : 10,  HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},
-        {Name : "Jamison",  HcpF : 13,  HcpB : 11,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},
-        {Name : "Jason",     HcpF : 5,   HcpB : 5,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},
-        {Name : "Jeff",     HcpF : 16,  HcpB : 13,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},
-        {Name : "Jim G",    HcpF : 14,  HcpB : 12,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}, 
-        {Name : "Jim S",    HcpF : 11,  HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}, 
-        {Name : "Mark",     HcpF : 11,  HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}, 
-        {Name : "Ryan",     HcpF : 12,  HcpB : 10,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}, 
-        {Name : "Sal",      HcpF : 11,   HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}, 
-        {Name : "Scott",     HcpF : 8,   HcpB : 7,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},
-        {Name : "Shawn",     HcpF : 12,   HcpB : 10,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}, 
-        {Name : "Tom",      HcpF : 13,  HcpB : 11,  Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}, 
-        {Name : "Tony",     HcpF : 12,   HcpB : 10,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},     
-        {Name : "Tozzi",    HcpF : 11,  HcpB : 9,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}, 
-        {Name : "Trique",   HcpF : 10,   HcpB : 8,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}, 
-        {Name : "Tyler",    HcpF : 10,  HcpB : 8,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]},                                                                                                                                                                
-        {Name : "Zack",     HcpF : 10,   HcpB : 8,   Strokes : 0, show : true, TotalScore: 0, TotalPoints: 0,
-        Holes: 
-        [   
-            {H : 1, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 2, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 3, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 4, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 5, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 6, Score : 0, HScore : 0, Points : 0, Swings : 0 },
-            {H : 7, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 8, Score : 0, HScore : 0, Points : 0, Swings : 0 }, {H : 9, Score : 0, HScore : 0, Points : 0 , Swings : 0}
-        ]}                                         
-    ];
+    $http.get("https://raw.githubusercontent.com/hixon/Angular/main/GolferData.json").then(function (response) {
+        $scope.Golfers = response.data.players;
+    });        
 
     $scope.Scorecard = [
         {Hole: 1,   Hcp: 15,    Par: 4, Side: "Front"},
@@ -252,8 +64,18 @@ app.controller('myCtrl', function($scope) {
                     currGolfer = $scope.Golfers[index];
                     break;
                 }
+            }            
+
+            let totalScore = 0;
+            for(var index = 0; index < currGolfer.Holes.length; index++){
+                if(currGolfer.Holes[index].Score != undefined){
+                    totalScore += currGolfer.Holes[index].Score;
+                }
             }
-            currGolfer.TotalScore += score;
+
+            if (totalScore > 0){
+                currGolfer.TotalScore = totalScore;
+            }
         }        
     }
 
@@ -266,6 +88,7 @@ app.controller('myCtrl', function($scope) {
 
         for(let index = 0; index < size; index++){
             if($scope.Golfers[index].Holes[0].Score > 0){
+                $scope.Golfers[index].TotalPoints = 0;
                 GolfersThatPlayed.push($scope.Golfers[index]);
             }
         }   
@@ -450,6 +273,7 @@ app.controller('myCtrl', function($scope) {
                       
         $scope.HoleSkins = HoleSkins;
         $scope.ShowSkins = false;
+        $scope.NumberOfPeople = GolfersThatPlayed.length;
     };  
     
     $scope.removeRow = function(name){                
