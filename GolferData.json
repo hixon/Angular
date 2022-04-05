@@ -3,85 +3,9 @@
         {
             "Name": "Ryan H",
             "PID": 8,
-            "HcpDiff": 8.22,
-            "HcpF": 10,
+            "HcpDiff": 7.96,
+            "HcpF": 6,
             "HcpB": 8,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Chris F",
-            "PID": 1,
-            "HcpDiff": 8.8,
-            "HcpF": 11,
-            "HcpB": 9,
             "Strokes": 0,
             "show": true,
             "TotalScore": 0,
@@ -155,8 +79,8 @@
         {
             "Name": "Eddie V Jr",
             "PID": 23,
-            "HcpDiff": 9.26,
-            "HcpF": 11,
+            "HcpDiff": 9.28,
+            "HcpF": 8,
             "HcpB": 9,
             "Strokes": 0,
             "show": true,
@@ -231,8 +155,8 @@
         {
             "Name": "Mark M",
             "PID": 14,
-            "HcpDiff": 8.08,
-            "HcpF": 10,
+            "HcpDiff": 8.87,
+            "HcpF": 8,
             "HcpB": 8,
             "Strokes": 0,
             "show": true,
@@ -307,8 +231,8 @@
         {
             "Name": "Gordon J",
             "PID": 9,
-            "HcpDiff": 13.61,
-            "HcpF": 16,
+            "HcpDiff": 14.77,
+            "HcpF": 15,
             "HcpB": 14,
             "Strokes": 0,
             "show": true,
@@ -383,85 +307,9 @@
         {
             "Name": "Jim G",
             "PID": 6,
-            "HcpDiff": 12.87,
-            "HcpF": 15,
+            "HcpDiff": 12.31,
+            "HcpF": 13,
             "HcpB": 13,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Dan M",
-            "PID": 27,
-            "HcpDiff": null,
-            "HcpF": null,
-            "HcpB": null,
             "Strokes": 0,
             "show": true,
             "TotalScore": 0,
@@ -535,8 +383,8 @@
         {
             "Name": "Amanda S",
             "PID": 18,
-            "HcpDiff": 17.55,
-            "HcpF": 21,
+            "HcpDiff": 17.23,
+            "HcpF": 17,
             "HcpB": 18,
             "Strokes": 0,
             "show": true,
@@ -611,8 +459,8 @@
         {
             "Name": "Jamison J",
             "PID": 10,
-            "HcpDiff": 10.16,
-            "HcpF": 12,
+            "HcpDiff": 11.23,
+            "HcpF": 11,
             "HcpB": 10,
             "Strokes": 0,
             "show": true,
@@ -687,85 +535,9 @@
         {
             "Name": "Sal G",
             "PID": 5,
-            "HcpDiff": 4.45,
-            "HcpF": 5,
+            "HcpDiff": 5.46,
+            "HcpF": 4,
             "HcpB": 4,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Jason P",
-            "PID": 28,
-            "HcpDiff": 8.18,
-            "HcpF": 10,
-            "HcpB": 8,
             "Strokes": 0,
             "show": true,
             "TotalScore": 0,
@@ -839,8 +611,8 @@
         {
             "Name": "Tony V",
             "PID": 25,
-            "HcpDiff": 6.53,
-            "HcpF": 8,
+            "HcpDiff": 4.62,
+            "HcpF": 6,
             "HcpB": 7,
             "Strokes": 0,
             "show": true,
@@ -915,85 +687,9 @@
         {
             "Name": "Trique M",
             "PID": 13,
-            "HcpDiff": 8.78,
-            "HcpF": 11,
+            "HcpDiff": 9.66,
+            "HcpF": 8,
             "HcpB": 9,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Tyler G",
-            "PID": 4,
-            "HcpDiff": 7.96,
-            "HcpF": 10,
-            "HcpB": 8,
             "Strokes": 0,
             "show": true,
             "TotalScore": 0,
@@ -1067,8 +763,8 @@
         {
             "Name": "Eddie V",
             "PID": 22,
-            "HcpDiff": 6.13,
-            "HcpF": 7,
+            "HcpDiff": 9.28,
+            "HcpF": 5,
             "HcpB": 6,
             "Strokes": 0,
             "show": true,
@@ -1143,8 +839,8 @@
         {
             "Name": "Jim S",
             "PID": 17,
-            "HcpDiff": 6.75,
-            "HcpF": 8,
+            "HcpDiff": 7.07,
+            "HcpF": 7,
             "HcpB": 7,
             "Strokes": 0,
             "show": true,
@@ -1219,85 +915,9 @@
         {
             "Name": "Donny F",
             "PID": 3,
-            "HcpDiff": 7.15,
-            "HcpF": 9,
+            "HcpDiff": 8.62,
+            "HcpF": 7,
             "HcpB": 7,
-            "Strokes": 0,
-            "show": true,
-            "TotalScore": 0,
-            "TotalPoints": 0,
-            "Holes": [
-                {
-                    "H": 1,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 2,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 3,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 4,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 5,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 6,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 7,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 8,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                },
-                {
-                    "H": 9,
-                    "Score": 0,
-                    "HScore": 0,
-                    "Points": 0,
-                    "Swings": 0
-                }
-            ]
-        },
-        {
-            "Name": "Frenchy C",
-            "PID": 2,
-            "HcpDiff": 17.1,
-            "HcpF": 21,
-            "HcpB": 17,
             "Strokes": 0,
             "show": true,
             "TotalScore": 0,
@@ -1371,8 +991,8 @@
         {
             "Name": "Ed T",
             "PID": 21,
-            "HcpDiff": 6.66,
-            "HcpF": 8,
+            "HcpDiff": 8.50,
+            "HcpF": 7,
             "HcpB": 7,
             "Strokes": 0,
             "show": true,
@@ -1447,8 +1067,8 @@
         {
             "Name": "Hal R",
             "PID": 16,
-            "HcpDiff": 8.12,
-            "HcpF": 10,
+            "HcpDiff": 8.72,
+            "HcpF": 6,
             "HcpB": 8,
             "Strokes": 0,
             "show": true,
@@ -1523,8 +1143,8 @@
         {
             "Name": "Scott L",
             "PID": 11,
-            "HcpDiff": 8.0,
-            "HcpF": 10,
+            "HcpDiff": 8.45,
+            "HcpF": 7,
             "HcpB": 8,
             "Strokes": 0,
             "show": true,
@@ -1599,8 +1219,8 @@
         {
             "Name": "Hank H",
             "PID": 7,
-            "HcpDiff": 9.7,
-            "HcpF": 12,
+            "HcpDiff": 8.5,
+            "HcpF": 7,
             "HcpB": 10,
             "Strokes": 0,
             "show": true,
@@ -1675,8 +1295,8 @@
         {
             "Name": "Brett W",
             "PID": 26,
-            "HcpDiff": 11.28,
-            "HcpF": 14,
+            "HcpDiff": 8.25,
+            "HcpF": 10,
             "HcpB": 11,
             "Strokes": 0,
             "show": true,
@@ -1751,8 +1371,8 @@
         {
             "Name": "Jeff V",
             "PID": 24,
-            "HcpDiff": 12.25,
-            "HcpF": 15,
+            "HcpDiff": 13.21,
+            "HcpF": 14,
             "HcpB": 12,
             "Strokes": 0,
             "show": true,
@@ -1827,8 +1447,8 @@
         {
             "Name": "Tom O",
             "PID": 15,
-            "HcpDiff": 11.24,
-            "HcpF": 14,
+            "HcpDiff": 10.43,
+            "HcpF": 9,
             "HcpB": 11,
             "Strokes": 0,
             "show": true,
@@ -1903,8 +1523,8 @@
         {
             "Name": "Dan L",
             "PID": 12,
-            "HcpDiff": 12.08,
-            "HcpF": 15,
+            "HcpDiff": 11.13,
+            "HcpF": 10,
             "HcpB": 12,
             "Strokes": 0,
             "show": true,
@@ -1979,8 +1599,8 @@
         {
             "Name": "Shawn S",
             "PID": 20,
-            "HcpDiff": 7.98,
-            "HcpF": 10,
+            "HcpDiff": 9.59,
+            "HcpF": 8,
             "HcpB": 8,
             "Strokes": 0,
             "show": true,
@@ -2055,8 +1675,8 @@
         {
             "Name": "Zack S",
             "PID": 19,
-            "HcpDiff": 6.42,
-            "HcpF": 8,
+            "HcpDiff": 6.93,
+            "HcpF": 6,
             "HcpB": 6,
             "Strokes": 0,
             "show": true,
